@@ -2,22 +2,32 @@
 
 html,
 body {
-  margin: 0;
-  padding: 0;
-  height: 100%;
   font-family: "Roboto Condensed", sans-serif;
 }
 .img-size {
-  width: 50%;
+  width: 30%;
 }
 .bg-assessment {
-  height: 100%;
-  width: 100%;
+  height: 100%; 
+  width: 100vw;
   background-image: linear-gradient(120deg, #279d72, #109fd9 50%, #25598f 100%);
   position: absolute;
+  top: 0;
+  left: 0;
   text-align: center;
+  margin: 0; 
+  padding: 0; 
 }
+
+.container-scroll-smooth {
+  margin-top: 1rem;
+  max-height: 45vh;
+  overflow-y: auto;
+  scroll-behavior: smooth;
+}
+
 .box-signin {
+  width: 100%;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -34,33 +44,28 @@ body {
   margin-right: 1rem;
   margin-bottom: 1rem;
 }
-.btn-userId {
+.btn-open {
   background-color: #25598f;
   color: #fff;
-  width: 100px;
+}
+.btn-open:hover {
+  background-color: #279d72;
+  color: #fff;
 }
 
-.btn-userId:hover {
-  background-color: #279d72;
-  color: #fff;
-  width: 100px;
-}
-.btn-fname {
+.btn-download {
   background-color: #25598f;
   color: #fff;
-  width: 100px;
 }
-
-.btn-fname:hover {
+.btn-download:hover {
   background-color: #279d72;
   color: #fff;
 }
-.btn-email {
-  background-color: #25598f;
-  color: #fff;
-  width: 100px;
+.box-evaluation {
+  display: flex !important;
+  flex-direction: column !important;
 }
-.btn-email:hover {
-  background-color: #279d72;
+.bg-blue {
+  background-color: #25598f !important;
   color: #fff;
 }

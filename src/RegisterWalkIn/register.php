@@ -71,7 +71,6 @@
 
   <?php include_once './../../inc/footer.php' ?>
   <script src="./js/step.js"></script>
-  <script src="./js/countdown.js"></script>
   <script>
   
   </script>

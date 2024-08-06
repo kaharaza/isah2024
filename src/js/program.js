@@ -40,7 +40,7 @@ function programloop() {
   html = "";
   for (i = 0; i < programisah.length; ++i) {
     html += `
-        <div class="col-md-6 mx-auto">
+        <div class="col-md-12 mx-auto">
                 <a data-fancybox="gallery" href="${programisah[i].img}">
                     <img src="${programisah[i].img}" class="card-img-top">
                 </a>

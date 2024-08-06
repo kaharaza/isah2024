@@ -22,12 +22,18 @@
     </div>
     <div class="container py-5">
         <div class="row g-2">
-            <div class="col-lg-8 abstract-title">
+            <div class="col-lg-8  abstract-title">
+                <h2> Tentative PROGRAMME</h2>
+
+                <div class="row g-2" id="program_isah">
+                </div>
+            </div>
+            <div class="col-lg-4 border-start border-2 abstract-title">
                 <h2>Topics</h2>
                 <div class="row g-2">
-                    <div class="col-lg-6">
+                    <div class="col-lg-12">
                         <div class="col-lg-12">
-                            <div class="card-body h-100">
+                            <div class="card-body h-100 pl-10">
                                 <span class="abstract-subject">
                                     <i class="fa-regular fa-circle"></i> Antimicrobial Resistance
                                 </span>
@@ -38,7 +44,7 @@
                             </div>
                         </div>
                         <div class="col-lg-12">
-                            <div class="card-body h-100 ">
+                            <div class="card-body h-100 pl-10 ">
                                 <span class="abstract-subject">
                                     <i class="fa-regular fa-circle"></i> Sustainable Animal Production & Environmental Health
                                 </span>
@@ -51,7 +57,7 @@
                             </div>
                         </div>
                         <div class="col-lg-12">
-                            <div class="card-body h-100 ">
+                            <div class="card-body h-100 pl-10 ">
                                 <span class="abstract-subject">
                                     <i class="fa-regular fa-circle"></i> Disaster Management and Epidemics/Pandemics Preparedness
                                 </span>
@@ -63,7 +69,7 @@
                             </div>
                         </div>
                         <div class="col-lg-12">
-                            <div class="card-body h-100 ">
+                            <div class="card-body h-100 pl-10 ">
                                 <span class="abstract-subject">
                                     <i class="fa-regular fa-circle"></i> Animal Welfare
                                 </span>
@@ -77,9 +83,9 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-6">
+                    <div class="col-lg-12">
                         <div class="col-lg-12">
-                            <div class="card-body h-100 ">
+                            <div class="card-body h-100 pl-10 ">
                                 <span class="abstract-subject">
                                     <i class="fa-regular fa-circle"></i> Innovation Technology for Animal and Food Production
                                 </span>
@@ -92,7 +98,7 @@
                             </div>
                         </div>
                         <div class="col-lg-12">
-                            <div class="card-body h-100 ">
+                            <div class="card-body h-100 pl-10 ">
                                 <span class="abstract-subject">
                                     <i class="fa-regular fa-circle"></i> Infectious and Transboundary Diseases <br> <span style="padding-left: 20px;">e.g.</span>
                                 </span>
@@ -112,12 +118,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 border-start border-2 abstract-title">
-                <h2><i class="fa-solid fa-circle"></i> Tentative PROGRAMME</h2>
-                <div class="border-bottom border-2 mb-3"></div>
-                <div class="row g-2" id="program_isah">
-                </div>
-            </div>
+
         </div>
 
     </div>
