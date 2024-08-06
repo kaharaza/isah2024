@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: "Roboto Condensed", sans-serif;
+}
+.img-size {
+  width: 50%;
+}
+.bg-assessment {
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(120deg, #279d72, #109fd9 50%, #25598f 100%);
+  position: absolute;
+  text-align: center;
+}
+.box-signin {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.box-card {
+  opacity: 0.8;
+}
+.ma-customer button {
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
+.btn-userId {
+  background-color: #25598f;
+  color: #fff;
+  width: 100px;
+}
+
+.btn-userId:hover {
+  background-color: #279d72;
+  color: #fff;
+  width: 100px;
+}
+.btn-fname {
+  background-color: #25598f;
+  color: #fff;
+  width: 100px;
+}
+
+.btn-fname:hover {
+  background-color: #279d72;
+  color: #fff;
+}
+.btn-email {
+  background-color: #25598f;
+  color: #fff;
+  width: 100px;
+}
+.btn-email:hover {
+  background-color: #279d72;
+  color: #fff;
+}

@@ -1,0 +1,12 @@
+{
+    "name": "acer/src",
+    "authors": [
+        {
+            "name": "skip"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.8",
+        "firebase/php-jwt": "^6.10"
+    }
+}
